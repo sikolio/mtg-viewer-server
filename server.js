@@ -4,7 +4,7 @@ const path = require('path');
 const bodyParser = require('body-parser')
 
 const PORT = process.env.PORT || 3002;
-const WSPORT = process.env.PORT || 3001;
+const WSPORT = process.env.WSPORT || 3001;
 const INDEX = path.join(__dirname, 'index.html');
 
 const server = express()
